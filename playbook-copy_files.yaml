@@ -1,0 +1,8 @@
+-
+  name: Copy file from source to destination
+  hosts: all
+  tasks:
+    - name: Copy files
+      copy:
+        src: /etc/ansible/test_project
+        dest: /etc/ansible/test_project
